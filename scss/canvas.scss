@@ -1,0 +1,17 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: auto;
+    background-color: rgb(159, 159, 159);
+    background:linear-gradient(top, rgba(159, 159, 159,1) 0%, rgb(208, 208, 208) 100%);
+    background-repeat: no-repeat;
+  background-size: cover;
+    z-index: -1;
+}

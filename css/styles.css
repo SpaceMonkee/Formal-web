@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.nav {
+  float: right; }
+
+.nav a {
+  color: #fff;
+  position: fixed;
+  font-size: 32px;
+  font-family: 'Poiret One', cursive;
+  text-decoration: none; }
+
+li {
+  display: inline;
+  position: relative;
+  padding-top: 2vh;
+  padding-left: 9em;
+  right: 15vw; }
+
+a:hover {
+  color: #ed6464; }
+
+canvas {
+  display: block;
+  vertical-align: bottom; }
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: #9f9f9f;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9f9f9f), to(#d0d0d0));
+  background: -webkit-linear-gradient(top, #9f9f9f 0%, #d0d0d0 100%);
+  background: -o-linear-gradient(top, #9f9f9f 0%, #d0d0d0 100%);
+  background: linear-gradient(top, #9f9f9f 0%, #d0d0d0 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1; }
+
+#foot {
+  background-color: silver;
+  position: absolute;
+  width: 100%;
+  height: auto; }
+
+#term {
+  font-size: 10pt; }
