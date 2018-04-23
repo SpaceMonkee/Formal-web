@@ -1,0 +1,22 @@
+.nav-text {
+  background-color: #222;
+  border-bottom: 2px solid #ed6464;
+  position: fixed;
+  width: 100%; }
+
+.nav a {
+  color: #fff;
+  position: fixed;
+  font-size: 32px;
+  font-family: 'Poiret One', cursive;
+  text-decoration: none; }
+
+li {
+  display: inline;
+  position: relative;
+  padding-top: 2vh;
+  padding-left: 9em;
+  right: 15vw; }
+
+a:hover {
+  color: #ed6464; }
