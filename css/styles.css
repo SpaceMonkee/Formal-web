@@ -120,7 +120,9 @@ a:hover {
 #coding-text {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
-  padding: 2%; }
+  padding: 2%;
+  top: 30%;
+  position: absolute; }
 
 #design {
   background-color: white;
@@ -133,7 +135,16 @@ a:hover {
 #design-text {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
-  padding: 2%; }
+  padding: 2%;
+  top: 30%;
+  position: absolute; }
+
+.heading {
+  font-family: 'Poiret One', cursive;
+  font-size: 2.5em;
+  left: 33%;
+  position: absolute;
+  top: 10%; }
 
 canvas {
   display: block;
