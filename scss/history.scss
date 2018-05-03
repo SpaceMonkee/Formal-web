@@ -12,3 +12,57 @@
     font-size: 2.5em;
     
 }
+.left{
+    background-color: white;
+    position: absolute;
+    left: 15%;
+    width: 30%;
+    height: 30%;
+}
+.right{
+    background-color: white;
+    position: absolute;
+    left: 55%;
+    width: 30%;
+    height: 30%;
+}
+#tile1{
+    top: 230%;
+}
+#school1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    padding: 2%;
+    top: 40%;
+    position: absolute;
+}
+#tile2{
+    top: 250%;
+}
+#school2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    padding: 2%;
+    top: 40%;
+    position: absolute;
+}
+#tile3{
+    top: 270%
+}
+#work1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    padding: 2%;
+    top: 40%;
+    position: absolute;
+}
+#tile4{
+    top: 290%;
+}
+#work2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    padding: 2%;
+    top: 40%;
+    position: absolute;
+}
