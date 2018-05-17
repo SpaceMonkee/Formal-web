@@ -89,19 +89,28 @@ a:hover{
   background-color: #222;
   overflow-x: hidden;
   /* Disable horizontal scroll */
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 10px; }
 
 /* The navigation menu links */
 .nav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
-  display: block; }
+  color: #fff;
+  display: block;
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 /* When you mouse over the navigation links, change their color */
 a:hover {
-  color: #ed6464; }
+  color: #ed6464;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 /*nav ends here*/
 #web-name {
