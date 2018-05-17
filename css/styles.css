@@ -360,11 +360,28 @@ canvas {
   height: auto;
   left: 10w; }
 
-#foot {
-  background-color: silver;
+#contact {
+  border-top: 2px solid #ed6464;
+  background-color: #222;
   position: absolute;
+  top: 520%;
   width: 100%;
   height: auto; }
 
-#term {
-  font-size: 10pt; }
+.details {
+  width: auto;
+  height: 10vh;
+  left: 40vw;
+  position: relative; }
+
+#contact a {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+a:hover {
+  opacity: 0.75;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
