@@ -46,32 +46,60 @@ table {
   border-spacing: 0; }
 
 /*Navigation section*/
+/*.nav{
+    background-color: #222;
+    border-bottom: 2px solid #ed6464;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 99;
+}
+.nav-text{
+    float: right;
+}
+.nav a{
+    color: #fff ;
+    position: fixed;
+    font-size: 32px;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    position: relative;
+    padding-top: 2vh; 
+    padding-left: 9em;
+    right: 15vw;
+}
+a:hover{
+    color: #ed6464
+}*/
+/*side nav attempt*/
 .nav {
-  background-color: #222;
-  border-bottom: 2px solid #ed6464;
+  width: 120px;
+  /* Set the width of the sidebar */
   position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 99;
+  /* Stay on top */
   top: 0;
-  width: 100%;
-  height: 40px;
-  z-index: 99; }
+  /* Stay at the top */
+  left: 0;
+  background-color: #222;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px; }
 
-.nav-text {
-  float: right; }
-
+/* The navigation menu links */
 .nav a {
-  color: #fff;
-  position: fixed;
-  font-size: 32px;
-  font-family: 'Poiret One', cursive;
-  text-decoration: none; }
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block; }
 
-li {
-  display: inline;
-  position: relative;
-  padding-top: 2vh;
-  padding-left: 9em;
-  right: 15vw; }
-
+/* When you mouse over the navigation links, change their color */
 a:hover {
   color: #ed6464; }
 
@@ -293,16 +321,27 @@ canvas {
   z-index: -1; }
 
 /* artwork section*/
+#arthead {
+  position: absolute;
+  background-color: #ed6464;
+  top: 410%;
+  left: 42.5%;
+  width: 11%;
+  padding: 0.5%;
+  -webkit-box-shadow: 5px 5px 18px;
+  box-shadow: 5px 5px 18px; }
+
+#title4 {
+  font-family: 'Poiret One', cursive;
+  font-size: 2.5em; }
+
 #arttile {
   position: absolute;
   background-color: white;
   left: 19vw;
   width: 55vw;
   height: 70vh;
-  top: 420%;
-  -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+  top: 430%;
   padding: 2%; }
 
 .work {
