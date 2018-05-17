@@ -1,0 +1,14 @@
+.image-container {
+  width: 8vw;
+  height: 16vh;
+  position: relative;
+  background-color: white;
+  margin: 0;
+  top: 10vh;
+  display: inline-block; }
+
+.work {
+  position: relative;
+  top: 15vh;
+  width: 30%;
+  height: auto; }

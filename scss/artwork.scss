@@ -1,0 +1,27 @@
+/* artwork section*/
+#arttile{
+    position: relative;
+    background-color: white;
+    left: 10vw;
+    width: 30vw;
+    height: 80vh;
+    top: -35vh;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+}
+.image-container{
+    width: 8vw;
+    height: 16vh;
+    position: relative;
+    background-color: white;
+    margin: 0;
+    top: 10vh;
+    display: inline-block;
+}
+.work{
+    position: relative;
+    top: 15vh;
+    width: 30%;
+    height: auto;
+}
