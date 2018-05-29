@@ -19,6 +19,12 @@
     width: 50%;
     box-shadow: 5px 5px 18px;
 }
+#world{
+    position: absolute;
+    left: 70%;
+    width: 750px;
+    height: 600px;
+}
 /* end of title*/
 @import "skills.scss";
 @import "history.scss";
