@@ -2,11 +2,12 @@ var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(50, 500 / 400, 0.1, 1000);
 
 var container = document.getElementById('world');
+document.body.appendChild( container );
 var renderer = new THREE.WebGLRenderer({ alpha: true });
 var w = container.offsetWidth;
 var h = container.offsetHeight;
 renderer.setSize(w, h);
-document.body.appendChild(renderer.domElement);
+container.appendChild(renderer.domElement);
 
 // Adding light
 
@@ -37,8 +38,7 @@ var cloudMesh = new THREE.Mesh(
 );
 scene.add(cloudMesh);
 
-
-
+// Camera settings and animation
 
 camera.position.z = 10;
 var render = function () {
