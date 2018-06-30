@@ -34,3 +34,4 @@ $('a[href*="#"]')
       }
     }
   });
+// Removing download option for modal
