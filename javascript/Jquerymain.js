@@ -6,6 +6,7 @@ $(document).ready(function() {
     });
 });
 
+// removing "save image as" options
 $('body').on('contextmenu', '.lg-image', function(e){
     e.preventDefault();
 });
