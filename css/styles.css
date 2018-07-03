@@ -165,8 +165,9 @@ a:hover {
 #coding-text {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
-  padding: 2%;
+  padding: 4%;
   top: 30%;
+  line-height: 1.2;
   position: absolute; }
 
 #design {
@@ -180,7 +181,8 @@ a:hover {
 #design-text {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
-  padding: 2%;
+  padding: 4%;
+  line-height: 1.2;
   top: 30%;
   position: absolute; }
 
@@ -220,7 +222,8 @@ a:hover {
 
 #title3 {
   font-family: 'Poiret One', cursive;
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  line-height: 1.2; }
 
 .left {
   background-color: white;
@@ -236,6 +239,8 @@ a:hover {
   width: 30%;
   height: 30%; }
 
+/* if tiles needs to be adjusted individually do so in the proper section.
+    The above are just templates */
 #tile1 {
   top: 230%; }
 
@@ -244,7 +249,8 @@ a:hover {
   font-size: 1em;
   padding: 2%;
   top: 40%;
-  position: absolute; }
+  position: absolute;
+  line-height: 1.2; }
 
 #tile2 {
   top: 250%; }
@@ -254,7 +260,8 @@ a:hover {
   font-size: 1em;
   padding: 2%;
   top: 40%;
-  position: absolute; }
+  position: absolute;
+  line-height: 1.2; }
 
 #tile3 {
   top: 270%; }
@@ -264,7 +271,8 @@ a:hover {
   font-size: 1em;
   padding: 2%;
   top: 40%;
-  position: absolute; }
+  position: absolute;
+  line-height: 1.2; }
 
 #tile4 {
   top: 290%; }
@@ -284,7 +292,8 @@ a:hover {
   font-size: 1em;
   padding: 2%;
   top: 40%;
-  position: absolute; }
+  position: absolute;
+  line-height: 1.2; }
 
 #tile6 {
   top: 330%; }
@@ -294,17 +303,20 @@ a:hover {
   font-size: 1em;
   padding: 2%;
   top: 40%;
-  position: absolute; }
+  position: absolute;
+  line-height: 1.2; }
 
 #tile7 {
-  top: 350%; }
+  top: 350%;
+  height: 35%; }
 
 #school5 {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   padding: 2%;
   top: 40%;
-  position: absolute; }
+  position: absolute;
+  line-height: 1.2; }
 
 #tile8 {
   top: 370%; }
@@ -314,7 +326,8 @@ a:hover {
   font-size: 1em;
   padding: 2%;
   top: 40%;
-  position: absolute; }
+  position: absolute;
+  line-height: 1.2; }
 
 /*canvas for particles*/
 canvas {
@@ -325,7 +338,7 @@ canvas {
 #particles-js {
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 100%;
   background-color: #9f9f9f;
   background: -webkit-gradient(linear, left top, left bottom, from(#9f9f9f), to(#d0d0d0));
   background: -webkit-linear-gradient(top, #9f9f9f 0%, #d0d0d0 100%);
@@ -372,12 +385,12 @@ canvas {
   position: absolute;
   top: 520%;
   width: 100%;
-  height: auto; }
+  height: 11%; }
 
 .details {
   width: auto;
   height: 10vh;
-  left: 40vw;
+  left: 45vw;
   position: relative; }
 
 #contact a {
