@@ -35,3 +35,5 @@ $('a[href*="#"]')
     }
   });
 // Removing download option for modal
+
+// Download option has been removed in lightgallery's own js file
