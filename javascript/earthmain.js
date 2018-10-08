@@ -38,6 +38,29 @@ var cloudMesh = new THREE.Mesh(
 );
 scene.add(cloudMesh);
 
+// Earth Markers
+
+function Marker() {
+    THREE.Object3D.call(this);
+
+    var radius = 0.005;
+    var sphereRadius = 0.02;
+    var height = 0.05;
+
+    var material = new THREE.MeshPhongMaterial({ color: 0xbab68f });
+
+    var cone = new THREE.Mesh(new THREE.ConeBufferGeometry(radius, height, 8, 1, true), material);
+    cone.position.y = height * 0.5;
+    cone.rotation.x = Math.PI;
+
+    var sphere = new THREE.Mesh(new THREE.SphereBufferGeometry(sphereRadius, 16, 8), material);
+    sphere.position.y = height * 0.95 + sphereRadius;
+
+    this.add(cone, sphere);
+}
+
+Marker.prototype = Object.create(THREE.Object3D.prototype);
+
 // Camera settings and animation
 
 camera.position.z = 10;
