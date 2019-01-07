@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Portfolio</title>
+    <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,6 +13,15 @@
 </head>
 
 <body id="top-page">
+    <div id="load_screen">
+        <div class="orbit">
+            <div class="prot"></div>
+            <div class="elec sp1"></div>
+        </div>
+        <div class="orbit rot45"><div class="elec sp2"></div></div>
+        <div class="orbit rot90"><div class="elec sp3"></div></div>
+        <div class="orbit rot135"><div class="elec sp4"></div></div>
+    </div>
     <div class="nav">
       <ul class="nav-text">
         <li><a href="#top-page">Home</a></li>
@@ -121,6 +131,7 @@
     <script src="javascript/lightgallery.js"></script>
     <script src="javascript/three.js"></script>
     <!--scripts-->
+    <script src="javascript/preloader.js"></script>
     <script src="javascript/main.js"></script>
     <script src="javascript/Jquerymain.js"></script>
     <script src="javascript/particle.js"></script>

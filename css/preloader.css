@@ -1,0 +1,135 @@
+#load_screen {
+  position: fixed;
+  height: 100vh;
+    width: 100vw;
+  background-image: radial-gradient( rgba(237, 100, 100, 1), rgba(237, 100, 100, 1));
+    z-index: 10000;
+    opacity: 1;
+}
+.loaded #load_screen {
+    transition: all 0.5s 0.6s ease-out;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.orbit {
+  position: absolute;
+  z-index: 10;
+  width: 100px;
+  height: 200px;
+  left: 50%;
+  top: 50%;
+  margin: -100px -50px;
+  border: 4px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+.loaded .orbit{
+    transition: all 0.3s ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.rot45 {
+  z-index: 6;
+  transform: rotate(45deg);
+}
+.rot90 {
+  z-index: 4;
+  transform: rotate(90deg);
+}
+.rot135 {
+  z-index: 6;
+  transform: rotate(135deg);
+}
+
+.prot {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin: 95px 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(126, 126, 126, 1);
+  animation: pulse 5s infinite;
+}
+
+.elec {
+  position: absolute;
+  top: 96px;
+  left: -6px;
+}
+.elec:after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.sp1 { animation: lr 10s infinite; }
+.sp1:after { animation: ud 10s infinite; 
+            background-color: #2ebf4b;}
+.sp2 { animation: lr 6s infinite; }
+.sp2:after { animation: ud 6s infinite; 
+            background-color: #bf2ea2;}
+.sp3 { animation: lr 16s infinite; }
+.sp3:after { animation: ud 16s infinite; 
+            background-color: #bf4b2e;}
+.sp4 { animation: lr 5s infinite; }
+.sp4:after { animation: ud 5s infinite;
+            background-color: #2ea2bf;}
+
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(2);
+  }
+}
+
+@keyframes lr {
+  0% {
+    animation-timing-function: ease-in;
+    transform: translateX(0px);
+  }
+  25% {
+    animation-timing-function: ease-out;
+    transform: translateX(51px);
+  }
+  50% {
+    animation-timing-function: ease-in;
+    transform: translateX(104px);
+  }
+  75% {
+    animation-timing-function: ease-out;
+    transform: translateX(51px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes ud {
+  0% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+  25% {
+    animation-timing-function: ease-in;
+    transform: translateY(-102px);
+  }
+  50% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+  75% {
+    animation-timing-function: ease-in;
+    transform: translateY(102px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
